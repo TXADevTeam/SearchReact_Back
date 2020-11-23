@@ -1,9 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using Data;
 using Microsoft.AspNetCore.Mvc;
-using 
+
 namespace TextOptions.Controllers
 {
     [ApiController]
@@ -18,18 +18,17 @@ namespace TextOptions.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Data.Values>>> Get()
+        public ActionResult Get()
         {
-            
-            return await _data;
+            return  Ok(_data.texts);
         }
         [HttpGet("{search}")]
-        public async Task<ActionResult<IEnumerable<OptionValues>>> Get(string search)
+        public  ActionResult<List<Data.Values>> Get(string search)
         {
-            OptionValues optionValues = await Countries.FirstOrDefaultAsync(u => u.Contains(search));
-            if (country is null)
+      //      Text optionValues =  _data.texts.FirstOr;
+      //      if (optionValues is null)
                 return NotFound();
-            return new ObjectResult(optionValues); 
+      //      return new ObjectResult(optionValues); 
         }
     }
 }
