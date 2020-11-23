@@ -1,6 +1,5 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 using Data;
 using Microsoft.AspNetCore.Mvc;
 
@@ -10,7 +9,7 @@ namespace TextOptions.Controllers
     [Route("api/[controller]")]
     public class SearchController : Controller
     {
-        private readonly Data.Values _data;
+        private readonly Values _data;
 
         public SearchController(Values data)
         {
@@ -23,12 +22,12 @@ namespace TextOptions.Controllers
             return  Ok(_data.texts);
         }
         [HttpGet("{search}")]
-        public  ActionResult<List<Data.Values>> Get(string search)
+        public  ActionResult<List<Values>> Get(string search)
         {
-      //      Text optionValues =  _data.texts.FirstOr;
-      //      if (optionValues is null)
+            IEnumerable<ISearch.ISearch> optionValues = _data.texts.Where(o => o.Desc.Contains(search));
+            if (optionValues.Count() == 0)
                 return NotFound();
-      //      return new ObjectResult(optionValues); 
+            return new ObjectResult(optionValues); 
         }
     }
 }
