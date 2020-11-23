@@ -3,6 +3,11 @@
     <PropertyGroup>
         <TargetFramework>netcoreapp3.1</TargetFramework>
         <UseWPF>true</UseWPF>
+        <RootNamespace>Data</RootNamespace>
     </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\THA.Search\THA.Search.csproj" />
+    </ItemGroup>
 
 </Project>

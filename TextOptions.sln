@@ -1,12 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextOptions", "TextOptions\TextOptions.csproj", "{17C965FC-291B-4E24-92B8-D7ABB6645BFB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "THA.Search.App", "THA.Search.App\THA.Search.App.csproj", "{17C965FC-291B-4E24-92B8-D7ABB6645BFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchingService", "SearchingService\SearchingService.csproj", "{6515F1B8-7028-4552-B8F8-342915B8D7B4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "THA.Search", "THA.Search\THA.Search.csproj", "{B2C81538-AEED-40A6-AF3F-63D8B126B772}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISearch", "ISearch\ISearch.csproj", "{B2C81538-AEED-40A6-AF3F-63D8B126B772}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{80E7BC3D-AB86-45BC-BDB2-A1DB1615F8B5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "THA.Search.Mocks", "THA.Search.Mocks\THA.Search.Mocks.csproj", "{CEFBDD88-CBD0-49C2-994B-264E4D1B3D82}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,17 +16,13 @@ Global
 		{17C965FC-291B-4E24-92B8-D7ABB6645BFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17C965FC-291B-4E24-92B8-D7ABB6645BFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17C965FC-291B-4E24-92B8-D7ABB6645BFB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6515F1B8-7028-4552-B8F8-342915B8D7B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6515F1B8-7028-4552-B8F8-342915B8D7B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6515F1B8-7028-4552-B8F8-342915B8D7B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6515F1B8-7028-4552-B8F8-342915B8D7B4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B2C81538-AEED-40A6-AF3F-63D8B126B772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B2C81538-AEED-40A6-AF3F-63D8B126B772}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2C81538-AEED-40A6-AF3F-63D8B126B772}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2C81538-AEED-40A6-AF3F-63D8B126B772}.Release|Any CPU.Build.0 = Release|Any CPU
-		{80E7BC3D-AB86-45BC-BDB2-A1DB1615F8B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{80E7BC3D-AB86-45BC-BDB2-A1DB1615F8B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{80E7BC3D-AB86-45BC-BDB2-A1DB1615F8B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{80E7BC3D-AB86-45BC-BDB2-A1DB1615F8B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEFBDD88-CBD0-49C2-994B-264E4D1B3D82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEFBDD88-CBD0-49C2-994B-264E4D1B3D82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEFBDD88-CBD0-49C2-994B-264E4D1B3D82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEFBDD88-CBD0-49C2-994B-264E4D1B3D82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

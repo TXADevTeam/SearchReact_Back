@@ -6,7 +6,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\ISearch\ISearch.csproj" />
+      <ProjectReference Include="..\THA.Search.Mo\THA.Search.Mo.csproj" />
+      <ProjectReference Include="..\THA.Search\THA.Search.csproj" />
     </ItemGroup>
 
 </Project>

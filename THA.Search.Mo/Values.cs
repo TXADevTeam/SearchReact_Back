@@ -1,11 +1,11 @@
 ﻿using System.Collections.Generic;
-using Data.Models;
+using THA.Search.Moq.Models;
 
 namespace Data
 {
     public class Values
     {
-        public IEnumerable<ISearch.ISearch> texts = new List<Result>{
+        public List<Result> texts = new List<Result>{
                 new Result(1, 
                         "Что делает setState?",
                         "Метод setState() следит за изменением состояния (state) компонента. " +
