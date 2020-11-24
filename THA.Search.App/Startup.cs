@@ -21,7 +21,7 @@ namespace THA.Search.App
         {
             services.AddControllers();
             services.AddTransient<ISearchService, SearchService>();
-            services.AddScoped(typeof(ISearchService), typeof(SearchService));
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -29,6 +29,7 @@ namespace THA.Search.App
         {
             app.UseRouting();
             app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
+            app.UseExceptionHandler("/error");
         }
     }
 }
