@@ -5,7 +5,7 @@ using THA.Search;
 
 namespace THA.Search.App.Controllers
 {
-    [ApiController]
+    
     [Route("api/[controller]")]
     public class SearchController : Controller
     {
@@ -17,12 +17,12 @@ namespace THA.Search.App.Controllers
         [HttpGet("{search}")]
         public  ActionResult<IEnumerable<Result>> Get(string search)
         {
-            if (search is null)
-                return NotFound();
+            if (string.IsNullOrEmpty(search))
+                return BadRequest();
             var results = _service.FindResults(search);
-                if (results.Count > 0)
-                    return Ok(results);
-                return NoContent();
+            if (results.Count > 0)
+                return Ok(results);
+            return NoContent();
         }
     }
 }
