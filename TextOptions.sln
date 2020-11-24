@@ -9,8 +9,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "THA.Search", "THA.Search\TH
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "THA.Search.Mocks", "THA.Search.Mocks\THA.Search.Mocks.csproj", "{CEFBDD88-CBD0-49C2-994B-264E4D1B3D82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TXA.UI.Service", "TXA.UI.Service\TXA.UI.Service.csproj", "{B44A4E9F-B6F5-4BB9-8E89-D101CDB89CE8}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,10 +27,6 @@ Global
 		{CEFBDD88-CBD0-49C2-994B-264E4D1B3D82}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CEFBDD88-CBD0-49C2-994B-264E4D1B3D82}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CEFBDD88-CBD0-49C2-994B-264E4D1B3D82}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B44A4E9F-B6F5-4BB9-8E89-D101CDB89CE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B44A4E9F-B6F5-4BB9-8E89-D101CDB89CE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B44A4E9F-B6F5-4BB9-8E89-D101CDB89CE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B44A4E9F-B6F5-4BB9-8E89-D101CDB89CE8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
