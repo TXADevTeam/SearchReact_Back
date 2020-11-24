@@ -1,10 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "THA.Search.App", "THA.Search.App\THA.Search.App.csproj", "{17C965FC-291B-4E24-92B8-D7ABB6645BFB}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "THA.Search.App", "THA.Search.App\THA.Search.App.csproj", "{17C965FC-291B-4E24-92B8-D7ABB6645BFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "THA.Search", "THA.Search\THA.Search.csproj", "{B2C81538-AEED-40A6-AF3F-63D8B126B772}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "THA.Search", "THA.Search\THA.Search.csproj", "{B2C81538-AEED-40A6-AF3F-63D8B126B772}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "THA.Search.Mocks", "THA.Search.Mocks\THA.Search.Mocks.csproj", "{CEFBDD88-CBD0-49C2-994B-264E4D1B3D82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "THA.Search.Mocks", "THA.Search.Mocks\THA.Search.Mocks.csproj", "{CEFBDD88-CBD0-49C2-994B-264E4D1B3D82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TXA.UI.Service", "TXA.UI.Service\TXA.UI.Service.csproj", "{B44A4E9F-B6F5-4BB9-8E89-D101CDB89CE8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,5 +29,15 @@ Global
 		{CEFBDD88-CBD0-49C2-994B-264E4D1B3D82}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CEFBDD88-CBD0-49C2-994B-264E4D1B3D82}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CEFBDD88-CBD0-49C2-994B-264E4D1B3D82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B44A4E9F-B6F5-4BB9-8E89-D101CDB89CE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B44A4E9F-B6F5-4BB9-8E89-D101CDB89CE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B44A4E9F-B6F5-4BB9-8E89-D101CDB89CE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B44A4E9F-B6F5-4BB9-8E89-D101CDB89CE8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F9974A0-3BE7-475A-9911-CD3F914E3BC4}
 	EndGlobalSection
 EndGlobal
